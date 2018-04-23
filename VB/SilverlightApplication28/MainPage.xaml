@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="SilverlightApplication28.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SilverlightApplication28"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="510" d:DesignWidth="1060"
+    xmlns:dxp="http://schemas.devexpress.com/winfx/2008/xaml/printing"
+    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid">
+    <UserControl.DataContext>
+        <local:MainPageViewModel />
+    </UserControl.DataContext>
+    
+    <Grid x:Name="LayoutRoot" Height="512">
+        <dxp:DocumentPreview Name="documentPreview1" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                             Margin="29,202,1,0" Height="298" Width="1000" />
+        <Button Name="button1" Content="Create Document" HorizontalAlignment="Center" VerticalAlignment="Top" 
+                Margin="0,25,0,0" Height="23" Width="175" Click="button1_Click" />
+        <dxg:GridControl Name="gridControl1" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                         Margin="29,75,0,0" Width="1000" DataSource="{Binding Persons}">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="Name" />
+                <dxg:GridColumn FieldName="Age" />
+            </dxg:GridControl.Columns>
+        </dxg:GridControl>
+        
+    </Grid>
+</UserControl>
