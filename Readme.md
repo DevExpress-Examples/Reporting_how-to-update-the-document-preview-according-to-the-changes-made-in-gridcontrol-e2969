@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainPage.xaml](./CS/SilverlightApplication28/MainPage.xaml) (VB: [MainPage.xaml](./VB/SilverlightApplication28/MainPage.xaml))
-* **[MainPage.xaml.cs](./CS/SilverlightApplication28/MainPage.xaml.cs) (VB: [MainPage.xaml](./VB/SilverlightApplication28/MainPage.xaml))**
+* **[MainPage.xaml.cs](./CS/SilverlightApplication28/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/SilverlightApplication28/MainPage.xaml.vb))**
 * [MainPageViewModel.cs](./CS/SilverlightApplication28/MainPageViewModel.cs) (VB: [MainPageViewModel.vb](./VB/SilverlightApplication28/MainPageViewModel.vb))
 * [Person.cs](./CS/SilverlightApplication28/Person.cs) (VB: [Person.vb](./VB/SilverlightApplication28/Person.vb))
 <!-- default file list end -->
