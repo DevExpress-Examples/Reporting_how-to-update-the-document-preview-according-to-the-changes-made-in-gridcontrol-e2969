@@ -7,6 +7,9 @@
 * [Person.cs](./CS/SilverlightApplication28/Person.cs) (VB: [Person.vb](./VB/SilverlightApplication28/Person.vb))
 <!-- default file list end -->
 # How to update the Document Preview according to the changes made in GridControl
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e2969)**
+<!-- run online end -->
 
 
 <p>This sample demonstrates how you can create a report document from a GridControl, and update its Document Preview on the same page, by clicking a button.</p>
